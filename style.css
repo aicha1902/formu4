@@ -1,0 +1,206 @@
+.all{
+    display: flex;
+    width: 1000px;
+    height: 550px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid gray;
+}
+
+.formulaire{
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+input{
+    border: 1px solid gray;
+    border-radius: 5%;
+}
+/*.formulaire{
+    display: flex;
+    position: relative;
+    margin-left: 450px;
+    
+
+}*/
+.first{
+    width: 100px;
+}
+.last{
+
+    width: 100px;
+}
+
+.phone{
+    width: 150px;
+}
+.meal{
+    width: 300px;
+}
+.pym{
+
+    width: 250px;
+}
+#lastname{
+    border: 1px solid red;
+    width: 170px;
+}
+.excl{
+    display: flex;
+    align-items: center;
+}
+i{
+    color: red;
+    background-color: white;
+    margin-left: -20px;
+    width: 2px;
+}
+#submit{    
+    border: none;
+    color: white;
+    background-color: #2DB987;
+}
+#reset{
+    border: 1px solid #2DB987;
+    background-color: white;
+}
+.button{
+margin-top: 55px;
+margin-left: 80px;
+display: flex;
+gap: 40px;
+
+}
+
+
+label{
+    margin-bottom: 5px;
+}
+/*.donnate{
+    border: none;
+    border-bottom:5px solid #2DB987 ;
+    width: 500px;
+}       
+/*label, input{
+
+
+}*/
+.labelpara{
+    display: flex;
+    
+}
+
+
+.p1{
+    font-size: smaller;
+}
+.formright{
+    margin-left: 350px;
+    height: 100%;
+    width: 30px;
+
+}
+.formleft{
+    margin-left: 100px;
+    height: 100%;
+    width: 30px;
+    
+}
+.left{
+     width: 30%;
+     height: 100%;
+    
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+input[type="radio"] {
+    width: 50px;
+    accent-color: #2DB987;
+}
+.cinq{
+    width: 140%;
+    background-color: #ddd;
+    margin-bottom: 40px;
+
+}
+.skills{
+    text-align: right;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: white;
+    height: 3px;
+    width: 50%;
+}
+.skills>span{
+    border: 1px solid #2DB987;
+    font-size: 18px;
+    color: white;
+    padding: 10px 40px;
+    position: relative;
+    background: #2DB987;
+
+}
+.html{
+    width: 50%;
+    background-color: #2DB987;
+    
+}
+
+
+.detail{
+    display: flex;
+    /*gap: 55px;*/
+}
+.labelpara span{
+    font-size: 8px;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+.detail span{
+    font-size: 8px;
+    text-decoration: underline;
+    margin-left: 8px;
+}
+.p2{
+    font-size: smaller;
+}
+.radio{
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+
+input{
+    padding: 10px; 
+    
+    
+}
+.doncinq{
+    margin-left: -400px;
+    margin-bottom: 50px;
+}
+#firstname{
+    border: 1px solid #B8E7D6;
+}
+.registre{
+    margin-top: -300px;
+    text-align: center;
+    color: white;
+}
+@media screen and (max-width:828px) {
+    all{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    background-color: red;
+} 
+    P{
+    font-size: 18px;
+}
+}
