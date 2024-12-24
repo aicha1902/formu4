@@ -5,7 +5,6 @@ body{
 }
 
 .all{
-    display: flex;
     width: 1000px;
     height: 550px;
     border-top: 1px solid black;
@@ -14,8 +13,14 @@ body{
     border-bottom: 1px solid gray;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     justify-items: center;
     align-items: center;
+}
+.left img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .formulaire{
@@ -204,11 +209,10 @@ input{
     color: white;
 }
 @media screen and (max-width:828px) {
-    all{
-    display: flex;
+    .all{
+    display: block;
     flex-direction: column;
     max-width: 100%;
-    background-color: red;
 } 
     P{
     font-size: 18px;
